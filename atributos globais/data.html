@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>document</title>
+</head>
+<body>
+
+	<ul>
+		<li data-id="1" data-email="uhdhfk@gmail.com">uhdhfk sz</li>
+		<li data-id="1" data-email="kdhdkd@gmail.com">kdhdkd sz</li>
+	</ul>
+
+	<script>
+		document.querySelectorAll('li').forEach(liEl => {
+
+			console.log(liEl.dataset.email);
+		});
+
+	</script>
+
+</body>
+</html>
